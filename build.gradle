@@ -1,7 +1,13 @@
-apply plugin: 'java'
+apply plugin: 'android-library'
 
 repositories {
     mavenCentral()
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+
 }
 
 dependencies {
